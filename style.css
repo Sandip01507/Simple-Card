@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.image{
+    position: relative;
+    height: 120px;
+    width: 120px;
+    background-color: rgba(246, 63, 63, 0.9);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.image .profile-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(185, 184, 184);
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-card{
+    background-color: aliceblue;
+    width: 370px;                     
+    border-radius: 20px;
+    padding: 36px;
+    box-shadow: 0 0 0 5px rgba(246, 63, 63, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 370px;
+}
+
+.profile-card .color{
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    top: 0;
+    border-radius: 18px 18px 0 0;
+    background-color: rgba(246, 63, 63, 0.9);
+}
+
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-data .git{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-data .fb{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profile-card .media-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media-icon .icon{
+    background-color: rgb(15, 151, 236);
+    text-decoration: none;
+    height: 34px;
+    width: 34px;
+    margin: 0 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.profile-card .btn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.btn .button{
+    background-color: rgba(246, 63, 63, 0.9);
+    padding: 8px 25px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn .button:hover{
+    background-color: rgb(195, 127, 127);
+}
+
+.profile-card .like{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.like .data{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-right: 2px solid rgba(205, 202, 202, 0.784);
+}
+
+.data:last-child{
+    border-right: none;
+}
+
+.data i{
+    font-size: 15px;
+    margin-right: 7px;
+}
