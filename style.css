@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-.image{
+.image {
     position: relative;
     height: 120px;
     width: 120px;
@@ -14,7 +14,7 @@
     padding: 4px;
 }
 
-.image .profile-image{
+.image .profile-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -22,7 +22,7 @@
     border: 3px solid #fff;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,9 +33,9 @@ body{
     background-size: cover;
 }
 
-.profile-card{
+.profile-card {
     background-color: aliceblue;
-    width: 370px;                     
+    width: 370px;
     border-radius: 20px;
     padding: 36px;
     box-shadow: 0 0 0 5px rgba(246, 63, 63, 0.9);
@@ -46,7 +46,7 @@ body{
     height: 370px;
 }
 
-.profile-card .color{
+.profile-card .color {
     position: absolute;
     height: 36%;
     width: 100%;
@@ -55,29 +55,29 @@ body{
     background-color: rgba(246, 63, 63, 0.9);
 }
 
-.profile-card .text-data{
+.profile-card .text-data {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.text-data .git{
+.text-data .git {
     font-size: 22px;
     font-weight: 500;
 }
 
-.text-data .fb{
+.text-data .fb {
     font-size: 15px;
     font-weight: 500;
 }
 
-.profile-card .media-icon{
+.profile-card .media-icon {
     display: flex;
     align-items: center;
     margin-top: 15px;
 }
 
-.media-icon .icon{
+.media-icon .icon {
     background-color: rgb(15, 151, 236);
     text-decoration: none;
     height: 34px;
@@ -91,14 +91,14 @@ body{
     font-size: 20px;
 }
 
-.profile-card .btn{
+.profile-card .btn {
     display: flex;
     align-items: center;
     margin-top: 20px;
 
 }
 
-.btn .button{
+.btn .button {
     background-color: rgba(246, 63, 63, 0.9);
     padding: 8px 25px;
     margin: 0 10px;
@@ -109,28 +109,28 @@ body{
     font-weight: 400;
 }
 
-.btn .button:hover{
+.btn .button:hover {
     background-color: rgb(195, 127, 127);
 }
 
-.profile-card .like{
+.profile-card .like {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
-.like .data{
+.like .data {
     display: flex;
     align-items: center;
     padding: 0 20px;
     border-right: 2px solid rgba(205, 202, 202, 0.784);
 }
 
-.data:last-child{
+.data:last-child {
     border-right: none;
 }
 
-.data i{
+.data i {
     font-size: 15px;
     margin-right: 7px;
 }
